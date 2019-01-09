@@ -17,7 +17,7 @@ end
 	ret = I;
 	edg = (kern-1)/2;
 	[nz nx ny] = size(I);
-    disp('... MedFilt3D running');
+%     disp('... MedFilt3D running');
     tic;
 	if bpar
 		parfor iz=1:nz
@@ -38,7 +38,7 @@ end
 			end
 		end
     end
-    disp(['... MedFilt3D completed after ' num2str(round(toc/60)) ' min']);
+%     disp(['... MedFilt3D completed after ' num2str(round(toc/60)) ' min']);
 
 
 
